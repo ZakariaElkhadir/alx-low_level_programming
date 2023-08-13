@@ -1,15 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - Prints numbers from 0 to 9.
+ * main - Prints the alphabet in reverse order.
  *
  * Return: Always 0 (Success)
  */
-
-int main(void){
-    char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+int main(void)
+{
+    char alp[26] = "abcdefghijklmnopqrstuvwxyz";
     int i;
-    for (i = 25; i >= 0; i--){
-        putchar(alphabet[i]);
+
+    for (i = 25; i >= 0; i--)
+    {
+        putchar(alp[i]);
     }
     putchar('\n');
     return (0);
