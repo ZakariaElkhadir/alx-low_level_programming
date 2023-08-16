@@ -9,17 +9,17 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-_putchar('+');
+putchar('+');
 return (1);
 }
 else if (n == 0)
 {
-_putchar('0');  /* You should use '0' instead of 48 for better clarity*/
+putchar('0');  /* You should use '0' instead of 48 for better clarity*/
 return (0);
 }
 else if (n < 0)
 {
-_putchar('-');
+putchar('-');
 return (-1);
 }
 }
