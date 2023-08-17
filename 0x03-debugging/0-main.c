@@ -9,15 +9,6 @@ int main(void)
 {
 int i;
 i = 98;
-positive_or_negative(i)
-{
-if (i > 0)
-{
-printf("i is positive");
-}
-else
-{
-printf("i is negative");
-}
-}
+positive_or_negative(i);
+return (0);
 }
