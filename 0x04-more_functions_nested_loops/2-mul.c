@@ -1,7 +1,11 @@
-#include <stdio.h>
 #include "main.h"
-int mul(int a, int b){
- return a * b;
-int result = multiply(5, 6)
-printf ("the sum is %d.\n", result)
+/**
+ * mul - multiply 2 int
+ * @a: first int
+ * @b: second int
+ * Return: addition of the multiplicattion
+ */
+int mul(int a, int b)
+{
+return (a * b)
 }
