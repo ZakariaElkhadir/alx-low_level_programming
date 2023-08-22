@@ -1,5 +1,7 @@
 #include <stdio.h>
 void _puts(char *str)
 {
-printf("Hello this is a String\n");
+str = "This is a String";
+_puts(str);
+return (0);
 }
