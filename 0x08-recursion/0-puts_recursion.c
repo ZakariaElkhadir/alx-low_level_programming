@@ -1,12 +1,17 @@
 #include <stdio.h>
-void _puts_recursion(char *s);
+/**
+* _puts_recursion - function like puts();
+* @s: input
+* Return: Always 0 (Success)
+*/
 void _puts_recursion(char *s)
 {
-printf("%s\n", s);
-}
-int main(void)
+if (*s)
 {
-const char *message = "Hello, Engineers";
-void _puts_recursion(message);
-return (0);
+_putchar(*s);
+_puts_recursion(s + 1);
+}
+
+else
+_putchar('\n');
 }
