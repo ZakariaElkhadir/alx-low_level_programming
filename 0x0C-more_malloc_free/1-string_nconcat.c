@@ -5,7 +5,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n){
 	char s2;
 	int n;
 	s1 = malloc(s2);
-	s2 = string_nconcat("hello world ", 6);
+	s2 = str("hello world ", 6);
 	if (ptr == NULL){
 		return NULL;
 		free (ptr);
