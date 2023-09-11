@@ -1,7 +1,9 @@
-#include <stdio.h>
+
 #define TABLESIZE SIZE
 #define SIZE 1024
-int main (){
-	print("tablesize : %d\n", TABLESIZE);
+int main ()
+{
+	printf("tablesize : %d\n", TABLESIZE);
 	return 0;
 }
+#endif
