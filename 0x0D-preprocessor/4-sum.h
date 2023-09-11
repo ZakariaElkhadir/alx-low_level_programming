@@ -1,6 +1,6 @@
-#ifndef MACRO
-#define MACRO
+#ifndef SUM_H
+#define SUM_H
 
-#define ABC(x, y) (x) + (y)
+#define SUM(x, y) ((x) + (y))
 
 #endif
