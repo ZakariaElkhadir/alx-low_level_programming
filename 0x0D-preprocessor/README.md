@@ -1,0 +1,1 @@
+The preprocessor in C is a part of the C compiler that performs text manipulation on your source code before the actual compilation process. It's a separate step that occurs before the compiler translates your C code into machine code. The preprocessor is responsible for handling various preprocessing directives and macros. 
