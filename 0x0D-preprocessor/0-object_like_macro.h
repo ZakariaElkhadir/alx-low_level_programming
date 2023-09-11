@@ -1,4 +1,4 @@
 #ifndef MACRO_h
-#define TABLESIZE SIZE
+#define TABLESIZE
 #define SIZE 1024
 #endif
