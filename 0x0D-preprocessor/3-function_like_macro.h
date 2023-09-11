@@ -1,7 +1,7 @@
-#define ABC(x)
+#ifndef MACRO
+#define MACRO
 
-int main()
-{
-	int result = ABC(6);
-	return 0;
-}
+#define ABS(x) ((x) < (0) ? -(x) : (x))
+
+#endif
+
