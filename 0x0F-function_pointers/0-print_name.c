@@ -7,6 +7,7 @@
  * Return: Nothing.
  */
 void print_name(char *name, void (*f)(char *)){
- name = "Zakaria";
-  printf("%d\n", name)
+ if(name == NULL || f == NULL)
+    return;
+  f(name);
 }
