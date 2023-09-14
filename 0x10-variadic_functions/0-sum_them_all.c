@@ -2,10 +2,14 @@
 #include <stdarg.h>
 int sum_them_all(const unsigned int n, ...)
 {
+	int s = 0, i = n;
 	va_list args;
 
-	va_start(args, n);
-	if (n == 0)
+	if (!n)
 		return (0);
+	va_start(args, n);
+	while (i--)
+		b += va_arg(args, int);
 	va_end(args);
+	retun(b)
 }
