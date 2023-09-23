@@ -1,4 +1,4 @@
-The C programming language is a versatile and widely-used general-purpose programming language that was originally developed in the early 1970s by Dennis Ritchie at Bell Labs. C has had a profound influence on the development of modern programming languages and systems software. It is known for its efficiency, portability, and ability to interact closely with hardware, making it suitable for a wide range of applications, including system programming, application development, game development, and more.
+-The C programming language is a versatile and widely-used general-purpose programming language that was originally developed in the early 1970s by Dennis Ritchie at Bell Labs. C has had a profound influence on the development of modern programming languages and systems software. It is known for its efficiency, portability, and ability to interact closely with hardware, making it suitable for a wide range of applications, including system programming, application development, game development, and more.
 
 Key characteristics and features of the C programming language include:
 
