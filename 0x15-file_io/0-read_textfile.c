@@ -7,7 +7,7 @@
  * Return: w- actual number of bytes read and printed
  *        0 when function fails or filename is NULL.
  */
-int create_file(const char *filename, char *text_content)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int jv;
 	char buf[read_buf_size * 8];
