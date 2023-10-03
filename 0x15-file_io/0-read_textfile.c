@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+
 /**
  * read_textfile- Read text file print to STDOUT.
  * @filename: text file being read
@@ -8,17 +10,19 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int jv;
-	char buf[read_buf_size * 8];
-	ssize_t bytes;
+	char *buf;
+	ssize_t jv;
+	ssize_t s;
+	ssize_t t;
 
-	if (!filename || !letters)
-		return (0);
-	jv = open(filename, O_RDONLY);
+	fd = open(filename, O_RDONLY);
 	if (jv == -1)
 		return (0);
-	bytes = read(jv, &buf[0], letters);
-	bytes = write(STDOUT_FILENO, &buf[0], bytes);
+	buf = malloc(sizeof(char) * letters);
+	t = read(jv, buf, letters);
+	w = write(STDOUT_FILENO, buf, t);
+
+	free(buf);
 	close(jv);
-	return (bytes);
+	return (s);
 }
