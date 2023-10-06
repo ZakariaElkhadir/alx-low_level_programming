@@ -4,7 +4,7 @@
  *
  * @s: The string to be measured.
  *
- * Return: The length of the string (number of characters).
+ * Return: i Recursion for it self
  */
 int _strlen(char *s)
 {
