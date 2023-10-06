@@ -1,11 +1,14 @@
 #include "main.h"
 /**
- * _strlen - Returns the length of a string.
+ * append_text_to_file - Appends text at the end of a file.
+ * @filename: A pointer to the name of the file.
+ * @text_content: The string to add to the end of the file.
  *
- * @s: The string to be measured.
- *
- * Return: i Recursion for it self
+ * Return: If the function fails or filename is NULL - -1.
+ *         If the file does not exist the user lacks write permissions - -1.
+ *         Otherwise - 1.
  */
+
 int _strlen(char *s)
 {
 	int i = 0;
