@@ -1,9 +1,10 @@
 #include "lists.h"
 /**
- * print_distint - print the function
- * @h: head node address
+ * print_dlistint - prints all the elements of a
+ * dlistint_t list
  *
- * Return: size of list
+ * @h: head of the list
+ * Return: the number of nodes
  */
 size_t print_dlistint(const dlistint_t *h)
 {
