@@ -1,4 +1,10 @@
 #include "lists.h"
+/**
+ * delete_dnodeint_at_index - deletes the node at given index of a list
+ * @head: pointer to head of the list
+ * @index: index to delete from, starting from 0
+ * Return: 1 on success or -1 on failure
+ **/
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *tmp = *head;
