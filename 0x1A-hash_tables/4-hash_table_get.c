@@ -1,11 +1,11 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_het - function that retrieves a value associated with a key.
- * @ht:  the hash table you want to look into
- * @key:  the key you are looking for
+ * hash_table_get - retrieves a value associated with a key.
+ * @ht: a pointer to the hash table array.
+ * @key: the key, a string that cannot be empty.
  *
- * Return: value associated with the element or NULL if key couldn’t be found
+ * Return: the value associated with the key, or NULL if key can't be found.
  */
 
 char *hash_table_get(const hash_table_t *ht, const char *key)
