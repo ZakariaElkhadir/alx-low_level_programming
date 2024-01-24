@@ -1,0 +1,4 @@
+CC=gcc
+CFLAGS=-I.
+all:
+	$(CC) -o school main.c school.c
