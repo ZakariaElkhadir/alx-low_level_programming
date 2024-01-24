@@ -1,4 +1,8 @@
 CC=gcc
+SRC=gcc
 CFLAGS=-I.
 all:
 	$(CC) -o school main.c school.c
+	$(SRC) -o school main.c school.c
+	
+
