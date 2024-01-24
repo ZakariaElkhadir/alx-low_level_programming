@@ -1,20 +1,23 @@
 #!/usr/bin/python3
 """doc doc"""
+
+
 def island_perimeter(grid):
     """island_perimeter"""
     length_row = len(grid)
     length_col = len(grid[0])
+    edges = 0
+    size = 0
 
     connections = 0
     par = 0
-    for x in range(0,length_row):
-        for y in range(0, length_col):
+    for x in range(length_row):
+        for y in range(length_col):
             if grid[x][y] == 1:
-                par += 4
+                size += 1
+                if (y > 0 and grid[x][y - 1] == 1):
+                    edges += 1
+                if (x > 0 and grid[x - 1][y] == 1):
+                    edges += 1
 
-                if x != 0 and grid[x - 1][y] == 1:
-                    connections += 1
-                if y != 0 and grid[x][y - 1] == 1:
-                    connections += 1
-    return par - (connections * 2)
-
+    return size * 4 - edges * 2
